@@ -1,0 +1,47 @@
+#header-div{
+    height:200px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+ 
+}
+#tenzy-top{
+    margin:20px;
+}
+#button-div{
+    display:flex;
+    flex-wrap:wrap;
+}
+.buttons{
+    height:80px;
+    width:12vw;
+    margin:20px 3vw;
+    border-radius:5px;
+    padding:5px;
+    font-size:1.5rem;
+    color:black;
+    font-weight:bold;
+    border:none;
+    box-shadow:2px 2px 3px grey;
+}
+#clicked{
+    background:green;
+    color:white;
+}
+#restart-button-div{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    height:50px;
+    
+}
+#restart-button-div>button{
+    font-size:1.6rem;
+    padding:5px 20px 5px 20px;
+    background-color:rgb(224, 22, 55);
+    color:white;
+    border:none;
+    border-radius:7px;
+    
+}

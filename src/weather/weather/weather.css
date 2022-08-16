@@ -1,0 +1,98 @@
+#weather-main-div{
+    height:500px;
+    width:400px;
+    border-radius:8px;
+}
+#weatherapp{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    height:100vh;
+
+}
+.day-div{
+    background:linear-gradient(180deg, rgb(25, 163, 243),rgb(242, 244, 245) 5%,rgb(24, 147, 248),rgb(11, 11, 44) 95%)
+}
+.night-div{
+    background:linear-gradient(180deg, rgb(8, 17, 75),rgb(1, 1, 26) 5%,rgb(0, 1, 7))
+}
+#weather-top{
+    height:55%;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+
+}
+#weather-bottom{
+    height:35%;
+
+}
+#mount-image{
+    height:100%;
+    width:100%;
+    border-radius:8px;
+}
+.day-temp{
+    color:rgb(7, 1, 15);
+}
+.night-temp{
+    color:white;
+
+}
+#bigdiv{
+    padding:5px;
+    text-align:center;
+}
+#bigdiv>h1{
+    font-size:2.5rem;
+}
+.weather-displays,#desc-w{
+    margin:15px auto 15px auto;
+}
+#weather-image-container{
+    height:80px;
+    width:80px;
+    margin:auto;
+}
+#mount-image{
+    height:100%;
+    width:100%;
+}
+#weather-logo{
+    height:100%;
+    width:100%;
+}
+.night-logo{
+    top:30px;
+}
+#weather-input-div{
+    height:10%
+}
+#weather-form{
+    height:100%;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+#weather-form>input{
+    margin:20px;
+    height:25px;
+    background-color: transparent;
+    border:1px solid white;
+    border-radius:8px;
+    font-size:1.2rem;
+    padding-left:5px;
+}
+#weather-form>button{
+    padding:5px 15px 5px 15px;
+    color:white;
+    border-radius: 7px;
+    background-color: rgb(218, 21, 53);
+    border:none;
+}
+.day-input{
+    color:black;
+}
+.night-input{
+    color:white;
+}

@@ -1,0 +1,21 @@
+#demdiv,#items,.dem2,#image-div{
+    margin:50px;
+}
+#butdiv{
+    display:flex;
+    width:200px;
+    justify-content:space-between
+}
+#image-div{
+    height:400px;
+    width:400px;
+    margin:20px;
+    border-radius:6px;
+}
+#real-image{
+    height:100%;
+    width:100%;
+    object-fit:cover;
+    border-radius:6px;
+
+}

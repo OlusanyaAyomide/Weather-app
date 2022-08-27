@@ -1,0 +1,135 @@
+#s-header-cont{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    width: 100%;
+    border-radius:10px;
+    background:linear-gradient(145deg,rgb(0, 195, 255) 30%,rgb(175, 211, 211) 40%)
+}
+#splash-header{
+    padding:10px;
+
+}
+#splash-header>h1,#splash-header>h3{
+    margin:20px;
+    text-align:center;
+    color:rgb(226, 13, 113)
+}
+#splash-body-contain{
+    width:100%;
+    justify-content: space-around;
+    align-items: center;
+}
+#splash-before{
+    padding:5px;
+    margin:auto;
+    width:90vw;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    background:linear-gradient(135deg,red,orange,yellow,green,blue,indigo,violet)
+}
+#splash-input-div{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100px;
+
+
+}
+#splash-input{
+    width:50vw;
+    height:30px;
+    border-radius:7px;
+    font-size:1.3rem;
+    color:rgb(37, 23, 33);
+    border:2px solid rgb(133, 9, 30);
+    background:linear-gradient(145deg,rgb(0, 195, 255) 30%,rgb(175, 211, 211) 40%,violet);
+    font-weight:bolder;
+    margin:20px;
+    padding:3px;
+    box-shadow:2px 2px 2px grey;
+}
+#splash-input-button{
+    margin:5px;
+   
+}
+#search-button{
+    font-size:1.3rem;
+    color:rgb(37, 23, 33);
+    border-radius:7px;
+    padding:3px 10px 3px 10px;
+    background-color: violet;
+    border:none;
+    box-shadow:2px 2px 2px grey;
+}
+#splash-error{
+    text-align:center;
+}
+#splash-image-container{
+    display:flex;
+    flex-wrap:wrap;
+    flex-grow: 1;
+    justify-content: space-around;
+    background:linear-gradient(90deg,rgb(228, 241, 245) 30%,rgb(175, 211, 211) 40%,rgb(238, 229, 245));
+}
+#splash-image-div{
+    height:250px;
+    width:250px;
+    border-top-left-radius:6px;
+    border-top-right-radius:6px;
+  
+}
+#splash-image{
+    height:100%;
+    width:100%;
+    object-fit:cover;
+    border-top-left-radius:9px;
+    border-top-right-radius:6px;
+}
+#splash-item{
+
+    margin:5px;
+    width:250px;
+}
+#splash-image-description{
+    text-align:center;
+    font-weight: bold;
+}
+.splash-arrows{
+    color:blue;
+    font-size:1.3rem;
+}
+.splash-buttons{
+    padding:5px 10px 5px 10px;
+    border-radius: 6px;
+    border:0.5px solid grey
+}
+#button-div{
+    display:flex;
+    justify-content: space-around;
+}
+#page-details{
+    margin:10px 15px 20px 15px;
+}
+#page-details>h4{
+    text-align:center;
+}
+#splash-jump-input{
+    width:2rem;
+    text-align: center;
+    font-size: 1rem;
+}
+#splashjump{
+    display:inline;
+    font-weight: 800;
+}
+#jumpbutt{
+    padding:3px 12px 3px 12px;
+    margin-left: 5px;
+    background-color: violet;
+    color:white;
+    border:none;
+    border-radius:6px;
+}
